@@ -3,8 +3,8 @@
 body:before{content:"";position:fixed;right:-8vmin;bottom:-8vmin;width:60vmin;height:60vmin;background:url(img/badge.png) center/contain no-repeat;opacity:.06;pointer-events:none;z-index:0}
 .banner{display:block;width:100%;height:auto;border-bottom:3px solid #d4a63a}
 header{padding:28px 20px 10px;border-bottom:2px solid rgba(212,166,58,.5);max-width:960px;margin:auto;display:flex;align-items:center;gap:14px;position:relative}
-header img{width:56px;height:56px;border-radius:50%;box-shadow:0 0 0 2px #d4a63a}
-h1{margin:0;font-size:24px;color:#f3d27a}header p{margin:4px 0 0;color:#cfe0ff;font-size:14px}
+header img{width:clamp(64px,12vw,96px);height:clamp(64px,12vw,96px);flex:none;border-radius:50%;box-shadow:0 0 0 2px #d4a63a}
+h1{margin:0;font-size:clamp(34px,9vw,46px);line-height:1.15;white-space:nowrap;letter-spacing:.04em;color:#f3d27a}header p{margin:4px 0 0;color:#cfe0ff;font-size:14px}
 main{max-width:960px;margin:auto;padding:16px;display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));position:relative}
 .card{background:rgba(255,255,255,.06);border:1px solid rgba(212,166,58,.35);border-left:4px solid #3fb56b;border-radius:12px;padding:18px;backdrop-filter:blur(2px)}
 .n{color:#5fd48a;font-size:13px;font-weight:700;letter-spacing:.05em}h2{margin:4px 0;font-size:19px;color:#fff}.m{color:#b9c8e6;font-size:13px;margin:0 0 12px}
